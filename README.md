@@ -3,7 +3,7 @@
 Objective
 ---------
 
-Write a simple eBPF-based pod stats collector. Some of the sample stats could be:
+Write a simple eBPF-based stats collector for a kubernetes cluster. Some of the sample stats could be:
 
 - Files opened by the pod
 - Memory usage of the pod in real time
