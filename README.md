@@ -12,6 +12,8 @@ Write a simple eBPF-based pod stats collector. Some of the sample stats could be
   
 The stats list is intentionally open-ended. You can add as many to the list as you would like :)
 
+The tool should be run on-demand basis and provide current stats when invoked. 
+
 Repository Setup
 ----------------
 
@@ -28,7 +30,8 @@ Implementation Details
 
 1. Use eBPF to track pod activity.
 2. Collect stats like number of open files, memory usage etc.
-3. Provide logging for debugging and verification
+3. The user-space control program can be implemented using libbpf, BCC or Go eBPF.
+4. Provide logging for debugging and verification
 
 Judgement Criteria
 -------------------
