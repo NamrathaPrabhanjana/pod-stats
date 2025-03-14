@@ -46,6 +46,7 @@ The code will be judged based on the following aspects:
 - Utility of the stats collected
 - Any real-time use cases that can be demonstrated for the stats collected
 - Any use cases for the collected stats that can be of significant value with future extensions.
+- Documentation of the implementation and code structure
 
 Repository Structure
 --------------------
